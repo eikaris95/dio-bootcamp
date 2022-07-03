@@ -1,0 +1,39 @@
+
+comandos para usar no Git:
+
+Git add
+Este comando adiciona os arquivos solicitados ao ambiente de stage,
+é uma forma de dizer para o git que você deseja que as modificações daquele arquivo sejam gravadas na próxima remessa.
+Um exemplo de utilização é: git add . onde o ponto representa todos os arquivos na pasta.
+
+Git commit
+Agora fazemos a gravação em si das modificações, desta forma criamos um snapshot do estado atual do nosso projeto.
+Uma forma muito usada é o git commit -m “descrição das atualizações do projeto” onde o -m é uma flag que aponta para a mensagem de descrição.
+
+Git push
+Por fim precisamos subir essas modificações no nosso repositório remoto,para isso basta utilizar o comando git push 
+e se já estiver tudo devidamente configurado, os arquivos serão salvos no repositório remoto correspondente ao seu repositório local!
+
+Git status
+Este comando permite ver quais arquivos estão sendo “rastreados” pelo git e quais modificações já foram enviadas para o stage.
+É bem útil para quando se tem dúvidas sobre o que está sendo enviado.
+
+Git init
+Esse é o comando que você irá utilizar para criar um novo projeto de git. 
+O comando irá criar um repositório novo em branco e, a partir daí, será possível armazenar seu código fonte, alterar, salvaguardar alterações etc.
+
+Git clone
+Esse comando Git cria uma cópia exata de um repositório já existente.
+Então… quando usar git init e quando usar git clone? O git clone é mais avançado, uma vez que ele mesmo executa um comando git init internamente. 
+Além disso, ele verifica todo o conteúdo do projeto.
+
+Git commit
+É fundamental se estabelecer uma diferença entre git add e git commit:
+
+git add adiciona seus arquivos modificados à fila para serem submetidos a um commit posteriormente. Os arquivos não passaram por um commit.
+O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log. Por outro lado, se você não adicionar nenhum arquivo, o git não fará o commit de nada.
+É possível combinar as duas ações em um único comando: $ git commit -a.
+
+Git push
+Esse comando serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote.
+
