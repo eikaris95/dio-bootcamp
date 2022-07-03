@@ -1,0 +1,46 @@
+No Windows :
+
+List Command (ls)
+O comando ls é usado para mostrar todos os arquivos e pastas que se encontram no respectivo diretório. 
+basta digitar "ls" no terminal.
+
+
+Change Directory (cd)
+O comando cd é usado para trocar de um diretório para outro, ou seja, serve para voce conseguir entrar em uma pasta.
+basta digitar cd NomeDaPasta ou cd Endereço da Pasta. 
+Também é possivel voltar um diretório, para isso basta usar o comando "cd .."
+
+
+Move (mv)
+O comando mv é usado para se mover um arquivo para um novo diretório ou pasta,
+exatamente igual quando arrastamos um arquivo de um lugar para o outro com o cursos do mouse.
+Para se utilizar o comando mv basta digitar mv NomeDoArquivo DiretórioParaOndeVai
+
+
+Make Directory (mkdir)
+O comando mkdir permite que o usuário consiga criar um novo diretório,
+exatamente igual quando clicamos com o botão direito e depois em "nova pasta".
+Para utilizar o comando basta digitar mkdir NomeDaPasta
+
+Remove Directory (rmdir)
+O comando rmdir é o contrário do comando mkdir, 
+mesma forma de usar porém ao invés de criar uma pasta, ele a deleta
+Para utilizar o comando basta digitar rmdir NomeDaPasta
+
+
+Make file (touch)
+O comando touch é utilizado para se criar um arquivo, exatamente do mesmo jeito que voce cria um .txt ou .doc usando a interface do seu SO
+Para utilizar o comando basta digitar touch NomeDoArquivo.Extensao
+
+
+Remove (rm)
+O comando rm é o contrário do comando touch, mesma forma de usar porém ao invés de criar um arquivo, ele o deleta
+Para utilizar o comando basta digitar rmr NomeDoArquivo.Extensao
+
+
+Clear Screen (clear)
+O comando clear serve apenas para limpar a tela do terminal, pois as vezes o terminal fica com tantos comandos que a poluição visual acaba dificuldando,
+e com este comando ele limpa tudo.
+Para utilizar o comando basta digitar clear
+
+
